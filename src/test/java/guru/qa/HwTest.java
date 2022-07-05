@@ -11,4 +11,11 @@ public class HwTest {
         Assertions.assertTrue(33 != 5);
 
     }
+
+    @Test
+    void myHwGitSecondTest() {
+
+        Assertions.assertTrue(11 != 12);
+
+    }
 }
