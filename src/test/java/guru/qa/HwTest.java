@@ -8,14 +8,14 @@ public class HwTest {
     @Test
     void myHwGitTest() {
 
-        Assertions.assertTrue(33 != 5);
+        Assertions.assertTrue(33 != 5 || 4 < 5);
 
     }
 
     @Test
     void myHwGitSecondTest() {
 
-        Assertions.assertTrue(11 != 12);
+        Assertions.assertTrue(11 != 12 && 3 > 2);
 
     }
 }
